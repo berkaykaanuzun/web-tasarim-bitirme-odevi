@@ -19,7 +19,7 @@
   <body>
     <main>
       <nav class="navbar navbar-expand-lg navigation">
-        <div class="container">
+        <div class="container-fluid">
           <a class="navbar-brand logo" href="#"
             ><img src="./assets/images/svg/logo.svg" alt=""
           /></a>
@@ -93,39 +93,53 @@
           </div>
         </div>
       </nav>
-      <header class="gradient-bg">
+      <header class="gradient-bg position-relative">
         <div class="container">
-          <div class="row justify-content-center align-items-center py-5">
-            <div class="col-lg-6">
+          <div
+            class="row hero-content justify-content-center align-items-center py-5"
+          >
+            <div class="gradient-bg-purple"></div>
+            <div class="gradient-bg-blue"></div>
+            <div class="col-lg-5 col-10 position-relative">
               <div class="hero-area">
-                <span>SIGN UP TODAY</span>
+                <span class="hero-signup">SIGN UP TODAY</span>
                 <h1 class="hero-text">
                   The World's <br /><span>Fastest Growing</span>
                   Crypto Web App
                 </h1>
-                <p class="text-muted my-5">
+                <p class="text-muted my-lg-5 hero-info">
                   Buy and sell 200+ cryptocurrencies with 20+ flat currencies
                   using bank transfers or your credit/debit card.
                 </p>
 
                 <button
-                  class="btn btn-primary rounded-pill px-lg-4 py-lg-3 me-3"
+                  class="hero-btn btn btn-primary rounded-pill px-lg-4 py-lg-3 me-3"
                   type="submit"
                 >
                   Get Started
                 </button>
                 <button
-                  class="btn btn-outline-primary rounded-pill px-lg-4 py-lg-3"
+                  class="hero-btn btn btn-outline-primary rounded-pill px-lg-4 py-lg-3"
                   type="submit"
                 >
                   Download App <i class="bi bi-chevron-down"></i>
                 </button>
+                <img
+                  class="header-star"
+                  src="./assets/images/svg/star.svg"
+                  alt=""
+                />
+                <img
+                  class="header-circle"
+                  src="./assets/images/svg/circle.svg"
+                  alt=""
+                />
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-7">
               <div class="hero-">
                 <img
-                  class="img-fluid hero-img"
+                  class="img-fluids hero-img"
                   src="./assets/images/header-btc.png"
                   alt="big-btc"
                 />
@@ -134,23 +148,291 @@
           </div>
         </div>
       </header>
+      <section class="sec-table">
+        <div class="container">
+          <div class="row bg-light">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-4">
+                  <div class="d-flex justify-content-between mb-2">
+                    <p>🔥 Trending</p>
+                    <span class="text-primary small">More ></span>
+                  </div>
+                  <div class="row">
+                    <div class="text-muted d-flex justify-content-center mb-3">
+                      <div class="col-4">Name</div>
+                      <div class="col-4">Price</div>
+                      <div class="col-4">Chart</div>
+                    </div>
+                    <div class="row justify-content-between border-coin mb-3 ">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/eth.svg"
+                            alt="btc"
+                          />
+                          Ethereum
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon-">-</span> $3,480.65</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/fall.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="row justify-content-between border-coin mb-3">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/eth.svg"
+                            alt="btc"
+                          />
+                          Ethereum
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon-">-</span> $3,480.65</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/fall.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="row justify-content-between border-coin mb-3">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/eth.svg"
+                            alt="btc"
+                          />
+                          Ethereum
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon-">-</span> $3,480.65</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/fall.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="row justify-content-between">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/eth.svg"
+                            alt="btc"
+                          />
+                          Ethereum
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon-">-</span> $3,480.65</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/fall.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="d-flex justify-content-between mb-2">
+                    <p>
+                      🚀 Top Gainers <i class="bi bi-chevron-down small"></i>
+                    </p>
+                    <span class="text-primary small">More ></span>
+                  </div>
+                  <div class="row">
+                    <div class="text-muted d-flex justify-content-center mb-3">
+                      <div class="col-4">Name</div>
+                      <div class="col-4">Price</div>
+                      <div class="col-4">Chart</div>
+                    </div>
+                    <div class="row justify-content-between border-coin mb-3">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/btc.svg"
+                            alt="btc"
+                          />
+                          Bitcoin
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon">+</span> $43,180.13</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/rise.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="row justify-content-between border-coin mb-3">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/btc.svg"
+                            alt="btc"
+                          />
+                          Bitcoin
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon">+</span> $43,180.13</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/rise.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="row justify-content-between border-coin mb-3">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/btc.svg"
+                            alt="btc"
+                          />
+                          Bitcoin
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon">+</span> $43,180.13</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/rise.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="row justify-content-between border-coin mb-3">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/btc.svg"
+                            alt="btc"
+                          />
+                          Bitcoin
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon">+</span> $43,180.13</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/rise.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="d-flex justify-content-between mb-2">
+                    <p>💎 Recently Added</p>
+                    <span class="text-primary small">More ></span>
+                  </div>
+                  <div class="row">
+                    <div class="text-muted d-flex justify-content-center mb-3">
+                      <div class="col-4">Name</div>
+                      <div class="col-4">Price</div>
+                      <div class="col-4">Chart</div>
+                    </div>
+                    <div class="row justify-content-between border-coin mb-3">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/eth.svg"
+                            alt="btc"
+                          />
+                          Ethereum
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon-">-</span> $3,480.65</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/fall.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="row justify-content-between border-coin mb-3">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/eth.svg"
+                            alt="btc"
+                          />
+                          Ethereum
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon-">-</span> $3,480.65</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/fall.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="row justify-content-between border-coin mb-3">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/eth.svg"
+                            alt="btc"
+                          />
+                          Ethereum
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon-">-</span> $3,480.65</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/fall.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="row justify-content-between border-coin mb-3">
+                      <div class="col-4">
+                        <div class="d-flex align-items-center">
+                          <img
+                            class="crypto-img me-1"
+                            src="./assets/images/crypto/eth.svg"
+                            alt="btc"
+                          />
+                          Ethereum
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <p><span class="price-icon-">-</span> $3,480.65</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="./assets/images/fall.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="sec-brand py-5 mb-5">
         <div class="container">
-          <div class="row justify-content-center">
+          <div class="row justify-content-center align-items-center">
             <div class="col-lg-12">
               <h3 class="text-center">Trusted Partners Worldwide</h3>
               <p class="text-muted text-center">Trusted Partners Worldwide</p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 text-center">
               <img src="./assets/images/brands/brand-clever.svg" alt="" />
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 text-center">
               <img src="./assets/images/brands/brand-diamond.svg" alt="" />
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 text-center">
               <img src="./assets/images/brands/brand-swiss.svg" alt="" />
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 text-center">
               <img src="./assets/images/brands/brand-gambio.svg" alt="" />
             </div>
           </div>
@@ -162,13 +444,14 @@
             <div class="col-lg-6">
               <img src="./assets/images/card.png" alt="" class="img-fluid" />
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 mt-5 mt-lg-0">
               <h2>
-                Introducing the 
+                Introducing the
                 <span class="gradient-color"> NEFA </span> <br />Credit Card
               </h2>
               <p class="text-muted mb-4">
-                Subject to cardholder and rewards terms which will be available <br>
+                Subject to cardholder and rewards terms which will be available
+                <br />
                 at application.
               </p>
               <div class="check">
@@ -184,7 +467,9 @@
                   <div class="check-icon bg-primary text-white me-2">
                     <i class="bi bi-check-lg"></i>
                   </div>
-                  <p class="m-0">Earn rewards in bitcoin or any crypto on NEFA</p>
+                  <p class="m-0">
+                    Earn rewards in bitcoin or any crypto on NEFA
+                  </p>
                 </div>
               </div>
               <div class="check">
@@ -195,6 +480,12 @@
                   <p class="m-0">No annual fee</p>
                 </div>
               </div>
+              <button
+                class="hero-btn btn btn-outline-primary rounded-pill px-lg-5 py-lg-3 mt-3"
+                type="submit"
+              >
+                Join the waitlist
+              </button>
             </div>
           </div>
         </div>
