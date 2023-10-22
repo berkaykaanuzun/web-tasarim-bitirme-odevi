@@ -1,0 +1,72 @@
+.gradient-color {
+  background: var(--GRA-Blue2, linear-gradient(169deg, #3984f4 -6.01%, #0cd3ff 36.87%, #2f7cf0 78.04%, #0e65e8 103.77%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(169deg, rgba(57, 132, 244, 0.04) -6.01%, rgba(12, 211, 255, 0.04) 36.87%, rgba(47, 124, 240, 0.04) 78.04%, rgba(14, 101, 232, 0.04) 103.77%);
+}
+
+.nav-item {
+  font-size: 1.15rem;
+}
+
+.navbar {
+  z-index: 999;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  width: 8rem;
+  height: 3rem;
+}
+
+.hero-text {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 5rem;
+}
+
+.hero-text span {
+  background: var(--GRA-Blue2, linear-gradient(169deg, #3984F4 -6.01%, #0CD3FF 36.87%, #2F7CF0 78.04%, #0E65E8 103.77%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-img {
+  width: 930px;
+}
+
+.sec-brand {
+  border-radius: 40px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) -9.25%, rgba(255, 255, 255, 0.6) -9.25%, rgba(244, 249, 255, 0.7) 108.74%);
+}
+
+.card-text {
+  background: var(--GRA-Blue2, linear-gradient(169deg, #3984F4 -6.01%, #0CD3FF 36.87%, #2F7CF0 78.04%, #0E65E8 103.77%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.check-icon {
+  font-size: 0.9rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.check {
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=style.css.map */
