@@ -1,0 +1,36 @@
+.crypto-img{
+    width: 20px;
+    height: 20px;
+}
+
+.price-icon{
+    color: #28C165;
+}
+.price-icon-{
+    color: #F4574D;
+}
+
+.border-coin{
+    border-bottom: 1px solid #EEE;
+}
+tr th{
+    &:nth-child(1){
+        text-align: start;
+    }
+    &:nth-child(2){
+        text-align: center;
+    }
+    &:nth-child(3){
+        text-align: center;
+    }
+ 
+}
+
+.name,
+.last,
+.handle{
+    --bs-text-opacity: 1 !important;
+    color: var(--bs-secondary-color)!important;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
