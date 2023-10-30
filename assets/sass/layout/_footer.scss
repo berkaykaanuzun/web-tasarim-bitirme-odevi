@@ -1,0 +1,35 @@
+.list-style-none li{
+    list-style: none;
+    margin: 1.2rem 0;
+}
+
+.footer-logo{
+    padding-top:4rem ;
+}
+.footer-form{
+    margin-top: 1.2rem;
+}
+
+.footer-menu ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.form-input{
+    border-radius: 10px;
+    border: 1px solid var(--GRA-Blue2, #3984f4);
+    height: 55px;
+}
+
+.form-submit{
+    display: flex;
+width: 55px;
+height: 55px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 12px;
+background: var(--GRA-Blue, linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%));
+}

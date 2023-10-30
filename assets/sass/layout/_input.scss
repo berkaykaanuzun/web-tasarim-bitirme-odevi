@@ -1,0 +1,38 @@
+.input-box {
+  border-radius: 22px;
+  border: 1px solid var(--GRA-Blue2, #3984f4);
+  height: 80px;
+
+  & span {
+    background: var(
+      --GRA-Blue,
+      linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  & input{
+    border: none;
+   text-align: right;
+  }
+  & input::placeholder{
+    color: #000;
+    font-weight: 500;
+  }
+}
+.input-flag{
+    width: 30px;
+    height: 30px;
+}
+.gradient-border-right {
+border-right: 1px solid black;
+height: 100%;
+display: flex;
+align-items: center;
+  
+}
+
+option{
+ width: 10px !important;
+}

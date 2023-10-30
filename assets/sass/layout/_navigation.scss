@@ -1,12 +1,17 @@
 .navbar {
-  z-index: 999;
-  background: transparent;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
+  background-color: #f6fbfe;
 }
+.nav-item{
+  font-size: 1rem;
+}
+
 .logo {
   width: 8rem;
   height: 3rem;
+}
+
+@media (max-width: 1200px){
+  .nav-item{
+    font-size: 0.8rem;
+  }
 }

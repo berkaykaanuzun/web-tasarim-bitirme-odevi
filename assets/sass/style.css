@@ -14,17 +14,25 @@
 }
 
 .navbar {
-  z-index: 999;
-  background: transparent;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
+  background-color: #f6fbfe;
+}
+
+.nav-item {
+  font-size: 1rem;
 }
 
 .logo {
   width: 8rem;
   height: 3rem;
+}
+
+@media (max-width: 1200px) {
+  .nav-item {
+    font-size: 0.8rem;
+  }
+}
+body {
+  overflow-x: hidden;
 }
 
 .hero-text {
@@ -80,14 +88,21 @@
   bottom: 0;
 }
 
+@media (max-width: 1400px) {
+  .hero-text {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+  }
+}
 @media (max-width: 1200px) {
   .hero-img {
     width: 100%;
     height: auto;
   }
   .hero-text {
-    font-size: 3.5rem;
-    line-height: 4rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
   }
 }
 @media (max-width: 992px) {
@@ -114,7 +129,7 @@
     padding: 1rem 0;
   }
   header {
-    padding-top: 12rem;
+    padding-top: 3rem;
   }
 }
 @media (max-width: 768px) {
@@ -170,21 +185,39 @@
   margin-bottom: 1rem;
 }
 
+.sec-table {
+  margin-top: -5%;
+}
+
 .crypto-img {
-  width: 20px;
-  height: 20px;
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: 1px !important;
 }
 
 .price-icon {
-  color: #28C165;
+  color: #28c165;
 }
 
 .price-icon- {
-  color: #F4574D;
+  color: #f4574d;
 }
 
-.border-coin {
-  border-bottom: 1px solid #EEE;
+.border-coin hr.hr-border {
+  width: 100%;
+  margin-left: auto;
+}
+.border-coin img {
+  width: 100%;
+  margin-top: -10%;
+}
+.border-coin hr {
+  color: #bbb;
+}
+
+.border-table {
+  border-right: 1px solid #eee;
+  height: 100%;
 }
 
 tr th:nth-child(1) {
@@ -204,4 +237,163 @@ tr th:nth-child(3) {
   color: var(--bs-secondary-color) !important;
   font-size: 0.8rem;
   font-weight: 400;
+}
+
+.input-box {
+  border-radius: 22px;
+  border: 1px solid var(--GRA-Blue2, #3984f4);
+  height: 80px;
+}
+.input-box span {
+  background: var(--GRA-Blue, linear-gradient(137deg, #468ef9 -12.5%, #0c66ee 107.5%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.input-box input {
+  border: none;
+  text-align: right;
+}
+.input-box input::-moz-placeholder {
+  color: #000;
+  font-weight: 500;
+}
+.input-box input::placeholder {
+  color: #000;
+  font-weight: 500;
+}
+
+.input-flag {
+  width: 30px;
+  height: 30px;
+}
+
+.gradient-border-right {
+  border-right: 1px solid black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+option {
+  width: 10px !important;
+}
+
+.industry-title {
+  width: 90%;
+}
+
+.sec-started {
+  border-radius: 40px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.7) -9.25%, rgba(255, 255, 255, 0.6) -9.25%, rgba(244, 249, 255, 0.7) 108.74%);
+}
+
+.arrow-area {
+  position: relative;
+}
+
+.arrow-left {
+  position: absolute;
+  left: 27%;
+  top: 47%;
+}
+
+.arrow-right {
+  position: absolute;
+  right: 24%;
+  top: 47%;
+}
+
+.arrow-img {
+  max-width: 80%;
+}
+
+@media (max-width: 1460px) {
+  .arrow-img {
+    max-width: 70%;
+  }
+  .arrow-left {
+    left: 27%;
+    top: 43%;
+  }
+  .arrow-right {
+    right: 22%;
+    top: 43%;
+  }
+}
+@media (max-width: 1200px) {
+  .arrow-img {
+    max-width: 60%;
+  }
+  .arrow-left {
+    left: 27%;
+  }
+  .arrow-right {
+    right: 20%;
+  }
+}
+@media (max-width: 992px) {
+  .arrow-left {
+    display: none;
+  }
+  .arrow-right {
+    display: none;
+  }
+}
+.collapsible-link {
+  width: 100% !important;
+  position: relative !important;
+  text-align: left !important;
+}
+
+.collapsible-link::before {
+  content: "\f107";
+  position: absolute !important;
+  top: 50% !important;
+  right: 0.8rem !important;
+  transform: translateY(-50%) !important;
+  display: block !important;
+  font-family: "FontAwesome";
+  font-size: 1.1rem;
+}
+
+.btn-faq {
+  border: none !important;
+}
+
+.list-style-none li {
+  list-style: none;
+  margin: 1.2rem 0;
+}
+
+.footer-logo {
+  padding-top: 4rem;
+}
+
+.footer-form {
+  margin-top: 1.2rem;
+}
+
+.footer-menu ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.form-input {
+  border-radius: 10px;
+  border: 1px solid var(--GRA-Blue2, #3984f4);
+  height: 55px;
+}
+
+.form-submit {
+  display: flex;
+  width: 55px;
+  height: 55px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: var(--GRA-Blue, linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%));
 }/*# sourceMappingURL=style.css.map */
