@@ -1,0 +1,22 @@
+.sec-tools{
+    border-radius: 40px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.7) -9.25%,
+      rgba(255, 255, 255, 0.6) -9.25%,
+      rgba(244, 249, 255, 0.7) 108.74%
+    );
+}
+.tools-link {
+  color: var(--BLUE, #2f7cf0);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.btn-tools{
+  width: 100% !important;
+}

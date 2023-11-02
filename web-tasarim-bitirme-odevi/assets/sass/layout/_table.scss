@@ -1,0 +1,82 @@
+.sec-table {
+  margin-top: -5%;
+}
+.crypto-img {
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: 1px !important;
+}
+
+.price-icon {
+  color: #28c165;
+}
+.price-icon- {
+  color: #f4574d;
+}
+
+.border-coin {
+  //border-bottom: 1px solid #eeeeee;
+
+  & hr.hr-border {
+    width: 100%;
+    margin-left: auto;
+  }
+  & img {
+    width: 100%;
+    margin-top: -10%;
+  }
+  & hr {
+    color: #bbb;
+  }
+}
+.border-table {
+  border-right: 1px solid #eee;
+
+  height: 100%;
+}
+
+tr th {
+  &:nth-child(1) {
+    text-align: start;
+  }
+  &:nth-child(2) {
+    text-align: center;
+  }
+  &:nth-child(3) {
+    text-align: center;
+  }
+}
+
+.name,
+.last,
+.handle {
+  --bs-text-opacity: 1 !important;
+  color: var(--bs-secondary-color) !important;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.table-radius {
+  border-radius: 2rem;
+}
+
+.table-row {
+  padding: rem 0;
+}
+
+.table > :not(caption) > * > * {
+  padding: 1rem 1rem;
+  border-bottom-width: var(--bs-border-width);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .crypto-name,
+  .crypto-price {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .chart-img{
+    max-width: 8rem !important;
+  }
+}

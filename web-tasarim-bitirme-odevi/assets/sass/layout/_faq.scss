@@ -1,0 +1,20 @@
+.collapsible-link {
+    width: 100% !important;
+    position: relative !important;
+    text-align: left !important;
+  }
+  
+  .collapsible-link::before {
+    content: "\f107";
+    position: absolute !important;
+    top: 50% !important;
+    right: 0.8rem !important;
+    transform: translateY(-50%) !important;
+    display: block !important;
+    font-family: "FontAwesome" ;
+    font-size: 1.1rem;
+  }
+
+  .btn-faq{
+    border: none !important;
+  }
