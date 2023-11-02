@@ -26,7 +26,7 @@
     height: 30px;
 }
 .gradient-border-right {
-border-right: 1px solid black;
+border-right: 1px solid #0E65E8;
 height: 100%;
 display: flex;
 align-items: center;
@@ -36,3 +36,8 @@ align-items: center;
 option{
  width: 10px !important;
 }
+
+.amount-input:focus-visible{
+  outline: none;
+}
+

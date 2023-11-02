@@ -1,5 +1,5 @@
-.sec-table{
-    margin-top: -5%;
+.sec-table {
+  margin-top: -5%;
 }
 .crypto-img {
   width: 20px !important;
@@ -14,28 +14,25 @@
   color: #f4574d;
 }
 
-
-
 .border-coin {
-    //border-bottom: 1px solid #eeeeee;
-   
-    & hr.hr-border{
-        width: 100%;
-        margin-left: auto;
-    }
-    & img{
-        width: 100%;
-        margin-top: -10%;
-    }
-    & hr {
-        color: #bbb;;
-    }
+  //border-bottom: 1px solid #eeeeee;
+
+  & hr.hr-border {
+    width: 100%;
+    margin-left: auto;
+  }
+  & img {
+    width: 100%;
+    margin-top: -10%;
+  }
+  & hr {
+    color: #bbb;
+  }
 }
-.border-table{
-    border-right: 1px solid #eee;
+.border-table {
+  border-right: 1px solid #eee;
 
-    height: 100%;
-
+  height: 100%;
 }
 
 tr th {
@@ -57,4 +54,29 @@ tr th {
   color: var(--bs-secondary-color) !important;
   font-size: 0.8rem;
   font-weight: 400;
+}
+.table-radius {
+  border-radius: 2rem;
+}
+
+.table-row {
+  padding: rem 0;
+}
+
+.table > :not(caption) > * > * {
+  padding: 1rem 1rem;
+  border-bottom-width: var(--bs-border-width);
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .crypto-name,
+  .crypto-price {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .chart-img{
+    max-width: 8rem !important;
+  }
 }

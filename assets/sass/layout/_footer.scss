@@ -33,3 +33,7 @@ flex-shrink: 0;
 border-radius: 12px;
 background: var(--GRA-Blue, linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%));
 }
+@media (min-width: 992px){
+.border-lg-end{
+border-right: 1px solid #dee2e6;
+}}
