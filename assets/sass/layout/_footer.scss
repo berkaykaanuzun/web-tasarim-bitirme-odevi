@@ -16,9 +16,12 @@
 }
 
 .form-input{
-    border-radius: 10px;
-    border: 1px solid var(--GRA-Blue2, #3984f4);
-    height: 55px;
+    border: double 2px transparent;
+    border-radius: 50px;
+    background-image: linear-gradient(white, white),
+      linear-gradient(to right, #3984f4, #0cd3ff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
 }
 
 .form-submit{
@@ -30,8 +33,21 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 flex-shrink: 0;
-border-radius: 12px;
-background: var(--GRA-Blue, linear-gradient(137deg, #468EF9 -12.5%, #0C66EE 107.5%));
+border-radius: 50px;
+border: double 2px transparent;
+  background-image: linear-gradient(#3984f4, #0cd3ff),
+    linear-gradient(to right, #fff, #fff);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+
+  &:hover{
+    border: double 2px transparent;
+    background-image: linear-gradient(#0cd3ff, #3984f4),
+    linear-gradient(to right, #fff, #fff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    color: #3984f4 !important;
+  }
 }
 @media (min-width: 992px){
 .border-lg-end{
