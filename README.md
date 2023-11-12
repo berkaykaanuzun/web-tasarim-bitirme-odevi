@@ -1,8 +1,9 @@
 # Web Tasarim Bitirme Ödevi
 
-live Demo : https://bku-bitirme-odevi.netlify.app/
+<a href="https://bku-bitirme-odevi.netlify.app/">Preview</a>
 
-Linkedin Post : https://www.linkedin.com/feed/update/urn:li:activity:7129491614535757824/
+<a href="https://www.linkedin.com/feed/update/urn:li:activity:7129491614535757824/">Linkedin Post</a>
+
 
 
 ![web-tasarim-bitirme-odevi-1](https://github.com/berkaykaanuzun/web-tasarim-bitirme-odevi/assets/124512036/c2d3c2a8-10f6-4cd5-98f6-7ecec3efeb0c)
